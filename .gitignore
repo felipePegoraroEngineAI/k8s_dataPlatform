@@ -20,7 +20,12 @@ infra/terraform/kubernetes/aks/orion-development/terraform.tfstate
 infra/terraform/kubernetes/aks/orion-development/.terraform/providers/registry.terraform.io/azure/
 infra/terraform/kubernetes/aks/orion-development/.terraform/providers/registry.terraform.io/hashicorp/
 
-infra/terraform/kubernetes/digitalOcean/
+infra/terraform/kubernetes/aks/digitalOcean/.terraform*
+infra/terraform/kubernetes/aks/digitalOcean/terraform*
+infra/terraform/kubernetes/aks/digitalOcean/kubeconfig.yaml
+
+infra/terraform/kubernetes/aks/digitalOcean/provider.tf
+/Users/lorranpimenta/Git/modern-data-stack/ws-stack-dados-k8s/infra/terraform/gitops/argocd/.terraform*
 
 infra/terraform/kubernetes/aks/owshq-orion-ws-dev/terraform.tfstate.backup
 
