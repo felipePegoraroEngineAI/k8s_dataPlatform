@@ -11,10 +11,9 @@ secrets:
 tenant:
   # Tenant name
   name: datalake
-  ## Registry location and Tag to download MinIO Server image
+  ## Registry location and Tag to download MinIO Server git
   image:
     repository: quay.io/minio/minio
-    storageClass: do-block-storage
     tag: RELEASE.2023-06-23T20-26-00Z
     pullPolicy: IfNotPresent
   ## Customize any private registry image pull secret.
@@ -40,7 +39,7 @@ tenant:
       ## size specifies the capacity per volume
       size: 5Gi
       ## storageClass specifies the storage class name to be used for this pool
-      storageClassName: do-block-storage
+      storageClassName: wffc
       ## Used to specify annotations for pods
       annotations: { }
       ## Used to specify labels for pods
