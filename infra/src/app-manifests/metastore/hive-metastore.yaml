@@ -13,7 +13,7 @@ spec:
       valueFiles:
         - values.yaml
   destination:
-    name: 'owshq-orion-ws-dev'
+    name: 'do-nyc1-pool-k8s'
     namespace: metastore
     server: ''
   syncPolicy:

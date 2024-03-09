@@ -6,14 +6,14 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/owshq-academy/ws-stack-dados-k8s.git'
+    repoURL: 'https://github.com/Lorran/ws-stack-dados-k8s.git'
     path: infra/src/helm-charts/minio-operator
-    targetRevision: HEAD
+    targetRevision: Dev-Digital-Ocean
     helm:
       valueFiles:
         - values.yaml
   destination:
-      name: 'owshq-orion-ws-dev'
+      name: 'do-nyc1-pool-k8s'
       namespace: deepstorage
       server: ''
   syncPolicy:
