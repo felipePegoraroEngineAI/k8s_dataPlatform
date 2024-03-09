@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/owshq-academy/ws-stack-dados-k8s.git'
+    repoURL: 'https://github.com/Lorran/ws-stack-dados-k8s.git'
     path: infra/src/helm-charts/hive-metastore
-    targetRevision: HEAD
+    targetRevision: Dev-Digital-Ocean
     helm:
       valueFiles:
         - values.yaml
