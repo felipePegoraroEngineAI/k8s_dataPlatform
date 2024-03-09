@@ -26,6 +26,7 @@ infra/terraform/kubernetes/aks/digitalOcean/kubeconfig.yaml
 
 infra/terraform/kubernetes/aks/digitalOcean/provider.tf
 /Users/lorranpimenta/Git/modern-data-stack/ws-stack-dados-k8s/infra/terraform/gitops/argocd/.terraform*
+infra/terraform/kubernetes/aks/digitalOcean/provider.tf
 
 infra/terraform/kubernetes/aks/owshq-orion-ws-dev/terraform.tfstate.backup
 

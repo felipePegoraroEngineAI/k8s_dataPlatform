@@ -7,5 +7,5 @@ metadata:
     argocd.argoproj.io/secret-type: repository
 stringData:
   url: https://luanmorenomaciel@github.com/owshq-academy/ws-stack-dados-k8s.git
-  password: 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
+  password: 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
   username: not-used

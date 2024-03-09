@@ -1591,7 +1591,7 @@
                         "size": {
                             "description": "Volume size for worker StatefulSet.",
                             "type": "string",
-                            "default": "100Gi"
+                            "default": "5Gi"
                         },
                         "storageClassName": {
                             "description": "If using a custom StorageClass, pass name ref to all StatefulSets here.",
@@ -2859,7 +2859,7 @@
                         "size": {
                             "description": "Volume size for triggerer StatefulSet.",
                             "type": "string",
-                            "default": "100Gi"
+                            "default": "5Gi"
                         },
                         "storageClassName": {
                             "description": "If using a custom StorageClass, pass name ref to all StatefulSets here.",
@@ -7411,7 +7411,7 @@
                         "size": {
                             "description": "Volume size for logs.",
                             "type": "string",
-                            "default": "100Gi"
+                            "default": "5Gi"
                         },
                         "storageClassName": {
                             "description": "If using a custom StorageClass, pass name here.",
